@@ -74,7 +74,7 @@ void Student::setDegreeProgram(DegreeProgram degreeProgram) {
     this->degreeProgram = degreeProgram;
 }
 
-void Student::printColumnNames() {
+static void printColumnNames() {
     cout << "Student ID|First Name|Last Name|Email|Age|Course Length|Degree Program\n";
 }
 void Student::print() {

@@ -37,6 +37,6 @@ class Student {
         void setCourseLength(int courseLength[]);
         void setDegreeProgram(DegreeProgram degreeProgram);
 
-        void printColumnNames();
+        static void printColumnNames();
         void print();
 };
