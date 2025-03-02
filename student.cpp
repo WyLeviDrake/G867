@@ -78,5 +78,13 @@ void Student::printColumnNames() {
     cout << "Student ID|First Name|Last Name|Email|Age|Course Length|Degree Program\n";
 }
 void Student::print() {
-    cout << this->getStudentId() << "\t" << this->getFirstName() << "\t" << this->getLastName() << "\t" << this->getEmail() << "\t" << this->getAge() << "\t" << this->getCourseLength()[0] << "," << this->getCourseLength()[1] << "," << this->getCourseLength()[2] << "\t" << degreeProgramStrings[this->getDegreeProgram()] << "\n";
+    cout << this->getStudentId() << "\t"; 
+    cout << this->getFirstName() << "\t";
+    cout << this->getLastName() << "\t";
+    cout << this->getEmail() << "\t";
+    cout << this->getAge() << "\t";
+    cout << this->getCourseLength()[0] << ",";
+    cout << this->getCourseLength()[1] << ",";
+    cout << this->getCourseLength()[2] << "\t";
+    cout << degreeProgramStrings[this->getDegreeProgram()] << "\n";
 }
